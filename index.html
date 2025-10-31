@@ -1,151 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-14RD2V4LH8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-14RD2V4LH8');
-</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Jiaxi Nie's Personal Website" />
-  <title>Jiaxi Nie's homepage</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Jiaxi Nie — Homepage</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-  .profile-content {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.profile-content img {
-  border-radius: 8px;
-  width: 350px !important;
-  height: auto;
-}
-
-.intro {
-  flex: 1;
-  min-width: 300px;
-}
-
-    :root {
-      --ucsd-blue: #00629b;
-      --ucsd-gold: #ffd200;
-      --light-bg: #f9f9f9;
-      --text-color: #333;
-    }
-
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: var(--light-bg);
-      color: var(--text-color);
-    }
-
-    header {
-      background-color: var(--ucsd-blue);
-      color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    nav a {
-      color: white;
-      margin-left: 1.5rem;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-
-    .profile {
-      display: flex;
-      align-items: flex-start;
-      gap: 2rem;
-      flex-wrap: wrap;
-    }
-
-    .profile img {
-      border-radius: 8px;
-      width: 250px;
-      height: auto;
-    }
-
-    h1 {
-      margin-top: 0;
-    }
-
-    section {
-      margin-top: 3rem;
-    }
-
-    h2 {
-      color: var(--ucsd-blue);
-      border-bottom: 2px solid var(--ucsd-gold);
-      padding-bottom: 0.3rem;
-    }
-
-    ul, ol {
-      padding-left: 1.5rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem 0;
-      color: #666;
-    }
-
-    a {
-      color: var(--ucsd-blue);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <body>
   <header>
-    <div><strong>Jiaxi Nie's homepage</strong></div>
+    <div><strong>Jiaxi Nie</strong></div>
     <nav>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#service">Service</a>
-      <a href="#misc">Misc</a>
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching, Service& Miscellaneous</a>
     </nav>
   </header>
 
   <div class="container">
-    <section class="profile" id="about">
-    <div class="profile-content">
+    <section class="profile-content">
       <img src="Kilauea.jpeg" alt="Jiaxi Nie">
-
       <div class="intro">
         <h1>Jiaxi Nie 聂家熹</h1>
-
-        <!-- <p><strong>Address:</strong><br>
-          School of Mathematics,<br>
+        <p><strong>Address:</strong><br>
+          School of Mathematics, Skiles 022<br>
           Georgia Institute of Technology,<br>
           Atlanta, GA, 30309</p>
 
-        <p><strong>Email:</strong> jnie47 "at" gatech "dot" edu</p> -->
-
+        <p><strong>Email:</strong> jnie47 "at" gatech "dot" edu</p> 
         <p>
           I am currently a visiting assistant professor at
           <a href="https://math.gatech.edu/">Georgia Institute of Technology</a> working with
@@ -167,99 +52,43 @@
 
         </p>
       </div>
-    </div>
-  </section>
-
-    <section id="research">
-      <h2>Research</h2>
-      <ol reversed>
-      <h3>Papers</h3>
-      <li> Decomposition of Cliques into k-Star-Forests  (With Yibo Ren and Hehui Wu) <br>
-        <i>Submitted.</i> (<a href="https://arxiv.org/abs/2509.18567">arxiv</a>)<br>      
-      <li> Maximum in-general-position set in a random subset of \( \mathbb{F}_q^d \) (With Yaobin Chen, Jing Yu and Wentao Zhang)<br>
-        <i>Submitted.</i> (<a href="https://arxiv.org/abs/2509.06403">arxiv</a>)<br>
-  
-      <li> Off-Diagonal Ramsey Numbers for Linear Hypergraphs (With Xiaoyu He, Yuval Wigderson and Hung-Hsun Hans Yu) <br>
-        <i>Submitted.</i> (<a href="https://arxiv.org/abs/2507.05641">arxiv</a>)<br>
-      <li> Generalized Erdős-Rogers problems for hypergraphs (With Xiaoyu He) <br>
-        <i>Submitted.</i> (<a href="https://arxiv.org/abs/2504.03138">arxiv</a>)<br>
-      <li> Supersaturation of odd linear cycles (With Lirong Deng, Jie Han and Sam Spiro) <br>
-        <i>Submitted.</i> (<a href="https://arxiv.org/abs/2504.05116">arxiv</a>)<br>
-      <li> Random Turán Problems for K<sub>s,t</sub>  Expansions (with Sam Spiro). <br>
-        <i>Submitted.</i> (<a href="https://arxiv.org/abs/2412.09367">arxiv</a>)<br>
-      <li> Random Turán Problems for Hypergraph Expansions. (with Sam Spiro). <br>
-        <i>Submitted.</i> (<a href="https://arxiv.org/abs/2408.03406">arxiv</a>)<br>
-      <li> Evasive sets, twisted varieties, and container-clique trees (With Jeck Lim and Ji Zeng) <br>
-        <i>SODA 2026.</i> (<a href="https://arxiv.org/abs/2507.07594">arxiv</a>)<br>    
-        <li> On the Matching Problem in Random Hypergraphs (with Peter Frankl and Jian Wang). <br>
-        <i>To appear on Discrete Mathematics, 2025</i> (<a href="https://arxiv.org/abs/2410.15585">arxiv</a>)<br>
-        <li> On tight tree-complete hypergraph Ramsey numbers. <br>
-          <i>To appear on Journal of Graph Theory, 2025</i> (<a href="https://arxiv.org/abs/2412.19461">arxiv</a>)<br>
-        <li> On odd covers of cliques and disjoint unions. (with Calum Buchanan, Alexander Clifton, Eric Culver, Peter Frankl, Kenta Ozeki, Puck Rombach, and Mei Yin). <br>
-          <i>To appear on Journal of Graph Theory, 2025</i> (<a href="https://arxiv.org/abs/2408.08598">arxiv</a>)<br>
-        <li> Random Turán theorem for expansions of spanning subgraphs of tight trees. <br><i>To appear on SIAM Journal on Discrete Mathematics, 2025</i> (<a href="https://arxiv.org/abs/2305.04193">arxiv</a>)<br>
-        <li> Sidorenko Hypergraphs and Random Turán Numbers. (with Sam Spiro). <br>
-          <i>To appear on Combinatorial Theory, 2025</i> (<a href="https://arxiv.org/abs/2309.12873">arxiv</a>)<br>
-        <li> Random Turán and counting results for general position sets over finite fields (with Yaobin Chen, Xizhi Liu, and Ji Zeng). <br>
-          <i>SCIENCE CHINA: Mathematics, 2025 </i> (<a href="https://www.sciengine.com/SCM/doi/10.1007/s11425-024-2384-x">journal</a>) (<a href="https://arxiv.org/abs/2309.07744">arxiv</a>)<br>
-        <li> The Number of Edge Colorings with Small Independence Number and No Monochromatic
-        H. (with Xinyu Hu and Qizhong Lin)<br><i>The Electronic Journal of Combinatorics, 2025 </i> (<a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v32i1p25">journal</a>)
-        <li> Off-diagonal Ramsey number for slowly growing hypergraphs. (with Sam Mattheus, Dhruv Mubayi and Jacques Verstraëte) <br>
-          <i>Random Structures & Algorithms, 2025 </i>(<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/rsa.21284">journal</a>) (<a href="https://arxiv.org/abs/2409.01442">arxiv</a>)<br>
-        <li> Turán theorems for even cycles in random hypergraph. <br><i>Journal of Combinatorial Theory, Series B, 2024 </i> (<a href="https://www.sciencedirect.com/science/article/pii/S009589562400008X?via%3Dihub">journal</a>) (<a href="https://arxiv.org/abs/2304.14588">arxiv</a>)<br>
-        <li> On asymptotic local Turán problems (with Peter Frankl).<br>
-           <i> The Moscow Journal of Combinatorics and Number Theory, 2023 </i> (<a href="https://msp.org/cnt/2023/12-4/p02.xhtml">journal</a>) (<a href="https://arxiv.org/abs/2303.00375">arxiv</a>)<br>
-        <li> On asymptotic packing of convex geometric and ordered graphs (with Erlang Surya, and Ji Zeng). <br><i>Journal of Graph Theory, 2023 </i>(<a href="https://onlinelibrary.wiley.com/doi/10.1002/jgt.23002">journal</a>) (<a href="https://arxiv.org/abs/2207.11624">arxiv</a>)<br>
-        <li> Odd Covers of Graphs. (with Calum Buchanan, Alexander Clifton, Eric Culver, Jason O'Neill, Puck Rombach, and Mei Yin). <br><i>Journal of Graph Theory, 2023 </i> (<a href="https://onlinelibrary.wiley.com/doi/10.1002/jgt.22970">journal</a>) (<a href="https://arxiv.org/abs/2202.09822">arxiv</a>)<br>
-        <li> On Turán numbers for disconnected hypergraphs (with Raffaella Mulas). <br><i>Acta Mathematica Hungarica, 2023 </i> (<a href="https://link.springer.com/article/10.1007/s10474-023-01340-8">journal</a>) (<a href="https://arxiv.org/abs/2207.10052">arxiv</a>)<br>
-        <li> On Asymptotic Packing of Geometric Graphs. (with Daniel Cranston, Jacques Verstraëte, and Alexandra Wesolek).<br> <i>Discrete Applied Mathematics, 2022 </i> (<a href="https://www.sciencedirect.com/science/article/pii/S0166218X2200292X">journal</a>) (<a href="https://arxiv.org/abs/2111.03933">arxiv</a>)<br>
-        <li> Maximal Independent Sets in Clique-free Graphs. (with Xiaoyu He and Sam Spiro). <br><i>European Journal of Combinatorics, 2022 </i> (<a href="https://www.sciencedirect.com/science/article/pii/S0195669822000713">journal</a>) (<a href="https://arxiv.org/abs/2108.06359">arxiv</a>) <br>
-        <li> Ramsey Numbers for Non-trivial Berge Cycles. (with Jacques Verstraëte). <br><i>SIAM Journal on Discrete Mathematics, 2022 </i> (<a href="https://epubs.siam.org/doi/abs/10.1137/21M1396770#">journal</a>) (<a href="https://arxiv.org/abs/2102.03720">arxiv</a>) <br>
-        <li> Triangle-free Subgraphs of Hypergraphs. (with Sam Spiro and Jacques Verstraëte). <br> <i>Graphs and Combinatorics, 2021 </i> (<a href="https://doi.org/10.1007/s00373-021-02388-5">journal</a>) (<a href="https://arxiv.org/abs/2004.10992">arxiv</a>) <br>
-        <li> Randomized greedy algorithm for independent sets in regular uniform hypergraphs with large girth. (with Jacques Verstraëte). <br><i>Random Structures & Algorithms, 2021 </i> (<a href="https://doi.org/10.1002/rsa.20994">journal</a>) (<a href="https://arxiv.org/abs/2005.00064">arxiv</a>) <br>
-
-        </ol>
-
-
     </section>
 
-    <section id="teaching">
-      <h2>Teaching</h2>
-      This semester, I am teaching MATH 3406. Previously:
+    <!-- New Section for Selected Publications -->
+    <section id="selected-publications">
+      <h2>Selected Publications</h2>
       <ul>
-        <li><strong>Instructor:</strong> MATH 4032, MATH 3012 (GaTech), Graph Theory (Fudan), MATH 20C (UCSD)</li>
-        <li><strong>TA:</strong> MATH 154, 20E, 170A/B, 220C, 18, 142A, 184A, 20B/A (UCSD)</li>
-      </ul>
-    </section>
-    <section id="service">
-    <h2>Service</h2>
-      <ul>
-        <li>Co-orgarnizing the <a href="https://sites.gatech.edu/combinatorics/events/combinatorics-seminar">GaTech Combinatorics Seminar</a></li>
-        <li>Co-orgarnizing the <a href="https://scmscomb.github.io/">SCMS Combinatorics Seminar</a></li>
-        <li>Served as reviewer for the following journals:<br>
-          Forum Math. Sigma, J. London Math. Soc., J. Combin. Theory Ser. B, Combinatorica, Random Struct. Algor.,
-          SIAM J. Discrete Math., J. Graph Theory, Europ. J. Combin., J. Combin., Discrete Appl. Math., Austral. J. Combin., J. Combin. Optim., Discrete Math.
-
-
+        <li>Maximum in-general-position set in a random subset of \( \mathbb{F}_q^d \) (with Yaobin Chen, Jing Yu, and Wentao Zhang)<br>
+          <i>Submitted.</i> (<a href="https://arxiv.org/abs/2509.06403">arxiv</a>)<br>
+        </li>
+        <li>Off-Diagonal Ramsey Numbers for Linear Hypergraphs (with Xiaoyu He, Yuval Wigderson, and Hung-Hsun Hans Yu)<br>
+          <i>Submitted.</i> (<a href="https://arxiv.org/abs/2507.05641">arxiv</a>)<br>
+        </li>
+        <li>Evasive sets, twisted varieties, and container-clique trees (with Jeck Lim and Ji Zeng)<br>
+          ACM-SIAM Symposium on Discrete Algorithms (<b>SODA</b>), 2026. (<a href="https://arxiv.org/abs/2507.07594">arxiv</a>)<br>
+        </li>
+        <li>Sidorenko Hypergraphs and Random Turán Numbers (with Sam Spiro)<br>
+          Combinatorial Theory (<b>CT</b>), 2025. (<a href="https://arxiv.org/abs/2309.12873">arxiv</a>)<br>
+        </li>
+        <li>Random Turán and counting results for general position sets over finite fields (with Yaobin Chen, Xizhi Liu, and Ji Zeng)<br>
+          SCIENCE CHINA Mathematics (<b>SCM</b>), 2025. (<a href="https://www.sciengine.com/SCM/doi/10.1007/s11425-024-2384-x">journal</a>) (<a href="https://arxiv.org/abs/2309.07744">arxiv</a>)<br>
+        </li>
+        <li>Off-diagonal Ramsey number for slowly growing hypergraphs (with Sam Mattheus, Dhruv Mubayi, and Jacques Verstraëte)<br>
+          Random Structures & Algorithms (<b>RS&A</b>), 2025. (<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/rsa.21284">journal</a>) (<a href="https://arxiv.org/abs/2409.01442">arxiv</a>)<br>
+        </li>
+        <li>Turán theorems for even cycles in random hypergraphs<br>
+          Journal of Combinatorial Theory, Series B (<b>JCTB</b>), 2024. (<a href="https://www.sciencedirect.com/science/article/pii/S009589562400008X?via%3Dihub">journal</a>) (<a href="https://arxiv.org/abs/2304.14588">arxiv</a>)<br>
         </li>
 
+        <li>Randomized greedy algorithm for independent sets in regular uniform hypergraphs with large girth (with Jacques Verstraëte)<br>
+          Random Structures & Algorithms (<b>RS&A</b>), 2021. (<a href="https://doi.org/10.1002/rsa.20994">journal</a>) (<a href="https://arxiv.org/abs/2005.00064">arxiv</a>)<br>
+        </li>
       </ul>
-    </section>
 
-
-    <section id="misc">
-      <h2>Miscellaneous</h2>
-      <ul>
-        <li>My <a href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erdős number</a> is 2. </a>
-        <li>Basketball fan and player</li>
-        <li>Cat lover — meet <a href="Chestnut.html">Chestnut</a></li>
-      </ul>
+      <p>See the full list of papers on the <a href="research.html">Research</a> page.</p>
     </section>
   </div>
 
-  <footer>
-    &copy; Jiaxi Nie — Last updated 2025
-  </footer>
+  <footer>&copy; Jiaxi Nie — Last updated 2025</footer>
 </body>
-
 </html>
